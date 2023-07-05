@@ -47,7 +47,7 @@ try:
     for row in film_director_records:
         print("Film Name: {}\nDirector: {}\n".format(row[0], row[1]))
 
-    # Close the cursor and connection
+    # Close the cursor and db connection
     cur.close()
     db.close()
 
